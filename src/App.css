@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* title */
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color: rgb(247, 247, 149);
+  width: 100%;
+
+}
+
+.title img{
+   height: 20vh;
+}
+
+
+/* content */
+
+.content{
+  height: 200vh;
+  width: 100vw;
+  background-color: rgb(247, 247, 149);
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+} 
+
+.leftcontent{
+  width: 50%;
+  background-color: rgb(247, 247, 149);
+  height: 100vh;
+}
+.leftcontent img{
+  width: 35vw;
+    height: 81vh;
+    padding: 1vh
+}
+
+.rightcontent{
+  width: 50%;
+  background-color: rgb(247, 247, 149);
+  height: 100vh;
+  padding: 2vh;
+}
+
+
+.rightcontent img{
+  width: 46vw;
+    height: 52vh;
+    padding: 4vh;
+}
+
+.rightcontent>ul{
+  margin-left:34px;
+}
+
+
+.middlecontent img{
+  width: 90vw;
+    height: 48vh;
+    padding: 4vh;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* footer */
+
+
+.footer{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background-color: red;
+  height: 10vh;
+
+}
+
+.footer  .left ,.middle ,.right{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:630px) {
+    
+  .title img{
+    height: 10vh;
+ }
+ .body{
+  display: flex;
+  flex-direction: column;
+}   
+
+.leftcontent{
+  width: 100%;
+  background-color: rgb(247, 247, 149);
+  height: 40vh;
+}
+.leftcontent img{
+  width: 94vw;
+    height: 38vh;
+    padding: 1vh;
+}
+
+.rightcontent img {
+  width: 55vw;
+  height: 21vh;
+  padding: 4vh;
+}
+.rightcontent {
+  width: 89%;
+  background-color: rgb(247, 247, 149);
+  height: 70vh;
+  padding: 2vh;
+}
+.middlecontent img {
+  width: 82vw;
+  height: 17vh;
+  padding: 2vh;
+}
+
+.content {
+  height: 175vh;
+  width: 100vw;
+  background-color: rgb(247, 247, 149);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+.footer  .left ,.middle ,.right{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  font-size: 1.5vh;
+}
+
+
+}
